@@ -1,0 +1,26 @@
+{
+  "name": "ui-evolution",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 src/components/MASTER/main.bundle.js -o dist/js/main.js",
+    "start": "http-server ./dist -o -c-1",
+    "webpack": "webpack"
+  },
+  "author": "MarcoSantino",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "handlebars-webpack-plugin": "^1.3.0",
+    "http-server": "^0.10.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.6.0"
+  }
+}
